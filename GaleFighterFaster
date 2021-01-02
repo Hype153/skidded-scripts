@@ -2817,7 +2817,7 @@ RW.C0 = clerp(RW.C0, CF(1.1* Player_Size, 0.5 + 0.05 * Sin(sine / 12)* Player_Si
 LW.C0 = clerp(LW.C0, CF(-1* Player_Size, 0.1 + 0.05 * Sin(sine / 12)* Player_Size, -0.5* Player_Size) * angles(Rad(45), Rad(6), Rad(86)), 0.1)
 end
 attack = false
-hum.WalkSpeed = 8
+hum.WalkSpeed = 50
 end
  
  
@@ -3347,7 +3347,7 @@ end)
 mouse.KeyUp:connect(function(key)
 if string.byte(key) == 48 then
 Swing = 1
-hum.WalkSpeed = 8
+hum.WalkSpeed = 50
 end
 end)
  
