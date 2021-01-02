@@ -636,7 +636,7 @@ The.BackgroundTransparency = 1.000
 The.Position = UDim2.new(0.21875, 0, 0.0632911325, 0)
 The.Size = UDim2.new(0, 200, 0, 50)
 The.Font = Enum.Font.SourceSans
-The.Text = "The"
+The.Text = "Yume"
 The.TextColor3 = Color3.fromRGB(255, 255, 255)
 The.TextSize = 50.000
 
@@ -646,7 +646,7 @@ TextLabel_12.BackgroundTransparency = 1.000
 TextLabel_12.Position = UDim2.new(0.30078125, 0, 0.83227849, 0)
 TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "TemporaryNameScript#8378"
+TextLabel_12.Text = "rekt kids with this lel"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 156, 35)
 TextLabel_12.TextSize = 28.000
 
@@ -656,7 +656,7 @@ TextLabel_13.BackgroundTransparency = 1.000
 TextLabel_13.Position = UDim2.new(0.30078125, 0, 0.965189874, 0)
 TextLabel_13.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Made By PanzerKampfMeinFuhr1"
+TextLabel_13.Text = "Made By Yume#4358"
 TextLabel_13.TextColor3 = Color3.fromRGB(232, 232, 232)
 TextLabel_13.TextSize = 28.000
 
