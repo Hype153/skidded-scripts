@@ -35,7 +35,6 @@ local TextButton_Roundify_4px = Instance.new("ImageLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local mainFrame = Instance.new("Frame")
-local Abyss = Instance.new("TextButton")
 local TextButton_Roundify_12px = Instance.new("ImageLabel")
 local TextLabel_5 = Instance.new("TextLabel")
 local adminPage = Instance.new("TextButton")
@@ -333,43 +332,6 @@ mainFrame.BorderSizePixel = 0
 mainFrame.Position = UDim2.new(0.1290631, 0, 0.21507065, 0)
 mainFrame.Size = UDim2.new(0, 512, 0, 316)
 
-Abyss.Name = "Abyss"
-Abyss.Parent = mainFrame
-Abyss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Abyss.BackgroundTransparency = 1.000
-Abyss.BorderSizePixel = 0
-Abyss.Position = UDim2.new(0.037109375, 0, 0.348101258, 0)
-Abyss.Size = UDim2.new(0, 135, 0, 50)
-Abyss.Font = Enum.Font.SourceSans
-Abyss.TextColor3 = Color3.fromRGB(0, 0, 0)
-Abyss.TextSize = 14.000
-
-TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
-TextButton_Roundify_12px.Parent = Abyss
-TextButton_Roundify_12px.Active = true
-TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_12px.BackgroundTransparency = 1.000
-TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_12px.Selectable = true
-TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
-TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(50, 50, 50)
-TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_12px.SliceScale = 0.120
-
-TextLabel_5.Parent = Abyss
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(-0.244444445, 0, 0, 0)
-TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_5.Font = Enum.Font.SourceSansSemibold
-TextLabel_5.Text = "Abyss Eye"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 35.000
-TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
 adminPage.Name = "adminPage"
 adminPage.Parent = mainFrame
 adminPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -666,7 +628,7 @@ TextLabel_14.BackgroundTransparency = 1.000
 TextLabel_14.Position = UDim2.new(0.307000011, 0, -0.133000001, 0)
 TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "The Hub V2.01"
+TextLabel_14.Text = "Yume Hub v1"
 TextLabel_14.TextColor3 = Color3.fromRGB(232, 232, 232)
 TextLabel_14.TextSize = 32.000
 
@@ -691,7 +653,7 @@ Hub_2.Size = UDim2.new(0, 200, 0, 50)
 Hub_2.Font = Enum.Font.SourceSans
 Hub_2.Text = "Hub"
 Hub_2.TextColor3 = Color3.fromRGB(25, 25, 25)
-Hub_2.TextSize = 50.000
+Hub_2.TextSize = 45.000
 
 Page2_2.Name = "Page2"
 Page2_2.Parent = mainFrame
@@ -1199,18 +1161,7 @@ local function LDKGBI_fake_script() -- mainFrame.drag
 		end
 	end)
 end
-coroutine.wrap(LDKGBI_fake_script)()
-local function GRUIS_fake_script() -- Abyss.LocalScript 
-	local script = Instance.new('LocalScript', Abyss)
 
-	script.Parent.MouseButton1Down:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Abyss Eye Executed!";
-			Text = "U executed abyss eye my guy";
-			Duration = 5;
-		})
-	end)
-end
 coroutine.wrap(GRUIS_fake_script)()
 local function IGQQCLO_fake_script() -- TextButton_Roundify_12px.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_Roundify_12px)
