@@ -1,6 +1,3 @@
-
---[[Made by PanzerKampfMeinFuhr1]]--
-
 loadstring(game:HttpGet(('https://pastebin.com/raw/XTmMzATJ'),true))() -- net bypass
 
 game.StarterGui:SetCore("SendNotification", {
@@ -666,7 +663,7 @@ TextLabel_14.BackgroundTransparency = 1.000
 TextLabel_14.Position = UDim2.new(0.307000011, 0, -0.133000001, 0)
 TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "The Hub V2.01"
+TextLabel_14.Text = "Yume Hub V1"
 TextLabel_14.TextColor3 = Color3.fromRGB(232, 232, 232)
 TextLabel_14.TextSize = 32.000
 
